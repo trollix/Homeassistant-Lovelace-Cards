@@ -1,4 +1,4 @@
-# Simple Clock Card
+# Simple Time Card
 A text based clock for Homeassistants' Lovelace ui
 
 ![24h clock](https://i.imgur.com/n37gyxZ.png)  
