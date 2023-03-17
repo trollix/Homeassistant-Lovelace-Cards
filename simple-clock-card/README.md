@@ -16,12 +16,12 @@ A text based clock for Homeassistants' Lovelace ui
 		
 		resources:
 			- type: module
-	        	  url: /local/elements/simple-clock-card/simple-clock-card.js
+	        	  url: /local/elements/tix-simple-clock-card/tix-simple-clock-card.js
 			  
 - add the following lines to a view in '*cards:*' as a *'manual card'* or use your yaml configuration and add:
 		
 		cards:
-			- type: 'custom:simple-clock-card'
+			- type: 'custom:tix-simple-clock-card'
 
 thats it!
 		
@@ -29,8 +29,8 @@ thats it!
 ## Options
 |option| default|description| 
 |--|--|--|
-|  use_millitary| true| When false shows a 24h format clock instead of a 12h format clock with AM/ PM|
-|  hide_seconds| false| When true hides the seconds
+|  use_h24| true| When false shows a 24h format clock instead of a 12h format clock with AM/ PM|
+|  show_seconds| true | When false hides the seconds
 
 ## Example
 - show a 24h clock without seconds:
