@@ -1,8 +1,8 @@
-class SimpleClockCard extends HTMLElement {
+class TixSimpleTimeCard extends HTMLElement {
 
   setConfig(config) {
     this.config = config;
-    if (this.config.use_military == null) this.config.use_military = true;
+    if (this.config.use_h24 == null) this.config.use_h24 = true;
     if (this.config.hide_seconds == null) this.config.hide_seconds = false;
   }
 
