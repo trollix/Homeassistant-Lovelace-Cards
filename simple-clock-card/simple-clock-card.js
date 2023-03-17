@@ -27,11 +27,9 @@ class SimpleClockCard extends HTMLElement {
     m = this.addZero(m);
     s = this.addZero(s);
 
-    let time_str =  (this.config.use_military ? h % 12 : h ) +
-                    ":" +
-                    m +
+    let time_str =  (this.config.use_h24 ? h % 12 : h ) + ":" + m +
                     (this.config.hide_seconds ? "" : ":" + s ) +
-                    (this.config.use_military ? " " + p : " ");
+                    (this.config.use_h24 ? " " + p : " ");
 
     this.content.innerHTML = time_str;
 
@@ -55,4 +53,4 @@ class SimpleClockCard extends HTMLElement {
 
 }
 
-customElements.define('simple-clock-card', SimpleClockCard);
+customElements.define('tix-simple-time-card', TixSimpleTimeCard);
