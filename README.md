@@ -10,6 +10,14 @@ A text based clock for Homeassistants' Lovelace ui
 [![GitHub Activity][commits-shield]][commits]
 
 
+[![release](https://img.shields.io/github/v/release/faeibson/lovelace-multiline-text-input-card?style=flat-square)](https://github.com/faeibson/lovelace-multiline-text-input-card/releases)
+![code_size](https://img.shields.io/github/languages/code-size/faeibson/lovelace-multiline-text-input-card?style=flat-square)
+![license](https://img.shields.io/github/license/faeibson/lovelace-multiline-text-input-card?style=flat-square)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=flat-square)](https://github.com/hacs/integration)
+
+
+
+
 ![24h clock](https://i.imgur.com/n37gyxZ.png)  
 
 ![military without seconds](https://i.imgur.com/ej4AFO3.png)
