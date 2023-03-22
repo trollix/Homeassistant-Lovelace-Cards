@@ -21,7 +21,7 @@ A text based clock for Homeassistants' Lovelace ui
 - add the following lines to a view in '*cards:*' as a *'manual card'* or use your yaml configuration and add:
 		
 		cards:
-			- type: 'custom:tix-simple-clock-card'
+			- type: 'custom:tix-simple-time-card'
 
 thats it!
 		
@@ -35,6 +35,6 @@ thats it!
 ## Example
 - show a 24h clock without seconds:
 	
-		- type: 'custom:simple-clock-card'
+		- type: 'custom:tix-simple-time-card'
 		  use_military: false
 		  hide_seconds: false
