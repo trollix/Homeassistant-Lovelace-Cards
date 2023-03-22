@@ -1,10 +1,15 @@
 # Simple Time Card
 A text based clock for Homeassistants' Lovelace ui
 
-[![release](https://img.shields.io/github/v/release/faeibson/home-assistant-simple-time-card?style=flat-square)](https://github.com/trollix/home-assistant-simple-time-card/releases)
-![code_size](https://img.shields.io/github/languages/code-size/trollix/home-assistant-simple-time-card?style=flat-square)
-![license](https://img.shields.io/github/license/trollix/home-assistant-simple-time-card?style=flat-square)
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=flat-square)](https://github.com/hacs/integration)
+
+[![GitHub Release][releases-shield]][releases]
+[![License][license-shield]](LICENSE.md)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
+
+![Project Maintenance][maintenance-shield]
+[![GitHub Activity][commits-shield]][commits]
+
+[![Community Forum][forum-shield]][forum]
 
 
 
