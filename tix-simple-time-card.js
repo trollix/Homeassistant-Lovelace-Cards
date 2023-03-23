@@ -4,7 +4,7 @@ class TixSimpleTimeCard extends HTMLElement {
     
     const defaultConfig = {
       'use_24h': true,
-      'hide_seconds': false,
+      'show_seconds': false,
     }
         
     this.config = {
@@ -13,8 +13,8 @@ class TixSimpleTimeCard extends HTMLElement {
     };
     /*
     this.config = config;
-    if (this.config.use_h24 == null) this.config.use_h24 = true;
-    if (this.config.hide_seconds == null) this.config.hide_seconds = false;
+    if (this.config.use_24h == null) this.config.use_h24 = true;
+    if (this.config.show_seconds == null) this.config.hide_seconds = false;
   }
   */
   }
@@ -40,9 +40,9 @@ class TixSimpleTimeCard extends HTMLElement {
     m = this.addZero(m);
     s = this.addZero(s);
 
-    let time_str =  (this.config.use_h24 ? h : h % 12 ) + ":" + m +
-                    (this.config.hide_seconds ? "" : ":" + s ) +
-                    (this.config.use_h24 ? " " : " " + p);
+    let time_str =  (this.config.use_24h ? h : h % 12 ) + ":" + m +
+                    (this.config.show_seconds ? ":" + s : "" ) +
+                    (this.config.use_24h ? " " : " " + p);
 
     this.content.innerHTML = time_str;
 
