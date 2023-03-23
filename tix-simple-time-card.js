@@ -1,11 +1,22 @@
 class TixSimpleTimeCard extends HTMLElement {
 
   setConfig(config) {
+    
+    const defaultConfig = {
+      'use_24h': true,
+      'hide_seconds': false,
+    }
+        
+    this.config = {
+      ...defaultConfig,
+      ...config
+    };
+    /*
     this.config = config;
     if (this.config.use_h24 == null) this.config.use_h24 = true;
     if (this.config.hide_seconds == null) this.config.hide_seconds = false;
   }
-
+  */
   getCardSize() {
     return 1;
   }
