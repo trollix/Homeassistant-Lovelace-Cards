@@ -40,7 +40,7 @@ class TixSimpleTimeCard extends HTMLElement {
     m = this.addZero(m);
     s = this.addZero(s);
 
-    let time_str =  (this.config.use_h24 ? h % 12 : h ) + ":" + m +
+    let time_str =  (this.config.use_h24 ? h : h % 12 ) + ":" + m +
                     (this.config.hide_seconds ? "" : ":" + s ) +
                     (this.config.use_h24 ? " " + p : " ");
 
