@@ -4,7 +4,7 @@ A text based clock for Homeassistants' Lovelace ui
 
 ![](https://img.shields.io/github/v/release/trollix/lovelace-tix-simple-time-card)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.ms)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=flat)](https://github.com/custom-components/hacs)
 
 
