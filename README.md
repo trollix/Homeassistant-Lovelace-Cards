@@ -43,5 +43,5 @@ thats it!
 - show a 24h clock without seconds:
 	
 		- type: 'custom:tix-simple-time-card'
-		  use_military: false
-		  hide_seconds: false
+		  use_24: false
+		  show_seconds: false
