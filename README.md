@@ -9,9 +9,8 @@ A text based clock for Homeassistants' Lovelace ui
 
 
 
-![24h clock](https://i.imgur.com/n37gyxZ.png)  
+![24h clock](resources/screenshot_1256.png)  
 
-![military without seconds](https://i.imgur.com/ej4AFO3.png)
 
 ## Usage
 - Download the files in this folder to your 'www' folder in the hass config directory. The *'www'* folder can be accesed via *'/local/'* in your configuration I've put my custom elements in the sub folder *'elements'* and the js file of this card in the folder *'simple-clock-card'* as an example.
