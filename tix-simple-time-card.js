@@ -17,6 +17,8 @@ class TixSimpleTimeCard extends HTMLElement {
     if (this.config.hide_seconds == null) this.config.hide_seconds = false;
   }
   */
+  }
+  
   getCardSize() {
     return 1;
   }
