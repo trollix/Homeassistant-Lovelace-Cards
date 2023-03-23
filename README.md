@@ -36,12 +36,12 @@ thats it!
 ## Options
 |option| default|description| 
 |--|--|--|
-|  use_h24| true| When false shows a 24h format clock instead of a 12h format clock with AM/ PM|
+|  use_24h| true| When false, shows 12h format clock with AM/ PM, instead of a 24h format clock |
 |  show_seconds| true | When false hides the seconds
 
 ## Example
 - show a 24h clock without seconds:
 	
 		- type: 'custom:tix-simple-time-card'
-		  use_24: false
+		  use_24h: false
 		  show_seconds: false
