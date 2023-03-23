@@ -2,15 +2,10 @@
 A text based clock for Homeassistants' Lovelace ui
 
 
-[![GitHub Release][releases-shield]][releases]
-[![License][license-shield]](LICENSE.md)
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
+![](https://img.shields.io/github/v/release/trollix/lovelace-tix-simple-time-card)
 
-![Project Maintenance][maintenance-shield]
-[![GitHub Activity][commits-shield]][commits]
-
-[![Community Forum][forum-shield]][forum]
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.ms)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=flat)](https://github.com/custom-components/hacs)
 
 
 
